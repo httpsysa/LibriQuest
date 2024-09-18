@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: rgb(90, 16, 16);
+    background-image: url(images/FinalLogin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 600px; /* Reduced width for a more compact look */
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background-color: rgba(255, 255, 255, 0.29);
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form h1 {
+    letter-spacing: 2px;
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 10px; /* Reduced space below the heading */
+}
+
+.form p {
+    color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 15px; /* Reduced spacing between the welcome text and input fields */
+    font-size: 1em;
+}
+
+.form p1{
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: x-small;
+}
+
+footer {
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: x-small;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    body{
+        justify-content: center;
+        margin-left: 200px;
+    } 
+}
+
+.box {
+    padding: 12px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.2); /* Set to 0.2 for partial transparency */
+    border: solid rgba(255, 255, 255, 0.6); /* Keep a solid but subtle border */
+    width: 100%;
+    margin: 10px 0;
+    border-width: 2px;
+    color: white; /* Adjust text color for better readability */
+}
+
+.box::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Make the placeholder text semi-transparent */
+}
+
+.box:hover {
+    cursor: pointer;
+    border-color: rgb(90, 16, 16);
+}
+
+
+#submit {
+    padding: 12px;
+    width: 50%; /* Make the button full-width like the input fields */
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 10px; /* Reduced space above the button */
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(90, 16, 16);
+    color: white;
+}
+
+.form a {
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    color: #ffffff;
+    margin-top: 10px; /* Reduced margin above "Forget Password" */
+}
+
+.form a:hover {
+    color: rgb(90, 16, 16);
+}
+
+footer {
+    margin-top: 20px; /* Reduced space between form elements and footer */
+}

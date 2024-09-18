@@ -1,0 +1,22 @@
+/* Style for the header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.custom-header {
+    width: 100%;
+    height: auto; /* This allows the image to scale based on its original size */
+    position: fixed;
+    top: 0;
+    z-index: 10; /* Ensures the header stays above other content */
+}
+
+.custom-header img {
+    width: 100%; /* Make the image fill the full width of the page */
+    height: auto; /* Keep the image's aspect ratio */
+    object-fit: cover; /* Make sure the image covers the header area without stretching */
+}
+
